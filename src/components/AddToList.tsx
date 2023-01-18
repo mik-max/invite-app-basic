@@ -44,7 +44,7 @@ const AddToList: FC<IProps>= ({people, setPeople}) => {
 
          <input type='number'  placeholder='Age' className='AddToList-input' value={input.age} name = 'age' onChange={handleChange} />
 
-         <input type='url'  placeholder='Image Url' className='AddToList-input' value={input.img} name = 'img' onChange={handleChange} />
+         <input type='u  rl'  placeholder='Image Url' className='AddToList-input' value={input.img} name = 'img' onChange={handleChange} />
 
          <textarea placeholder='Note' className='AddToList-input' value={input.note} name = 'note' onChange={handleChange} />
          <button className='AddToList-btn' onClick={handleSubmit}> Add to list</button>
